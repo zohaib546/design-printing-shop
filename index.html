@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/font-awesome/css/all.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- header -->
+		<header class="grid items-center p-4 bg-white xl:grid-cols-2">
+			<div class="flex flex-wrap items-center space-y-5 overflow-x-auto sm:space-y-0">
+				<a class="flex-shrink-0" href="#"
+					><img class="w-24" src="img/logo.png" alt="logo of website"
+				/></a>
+				<nav class="pb-4 mx-auto sm:pb-0">
+					<ul class="flex">
+						<li><a class="px-6 py-2 bg-gray-100 rounded-md" href="#">Home</a></li>
+						<li><a class="px-6 py-2 rounded-md" href="#">Categories</a></li>
+						<li><a class="px-6 py-2 rounded-md" href="#">Favorites</a></li>
+						<li><a class="px-6 py-2 rounded-md" href="#">About</a></li>
+						<li><a class="px-6 py-2 rounded-md" href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="items-center hidden xl:flex">
+				<form class="flex items-center flex-grow px-4 py-3 bg-gray-100 rounded-md">
+					<img class="w-4 mr-2" src="img/icons/search.svg" alt="search icon" />
+					<input
+						class="w-full bg-transparent focus:outline-none"
+						type="text"
+						placeholder="Search invitational cards, posters"
+					/>
+				</form>
+
+				<a class="mx-16" href="#">
+					<img class="w-7" src="img/icons/cart.svg" alt="cart icon" />
+				</a>
+
+				<a href="#">
+					<img class="overflow-hidden rounded-full w-9 h-9" src="img/avatar.png" alt="avatar" />
+				</a>
+			</div>
+		</header>
+
+		<!-- hero -->
+		<section class="hero h-52 sm:h-auto">
+			<img class="min-h-full sm:w-full" src="img/hero.jpg" alt="cover" />
+		</section>
+
+		<!-- Feature -->
+		<section class="mt-8 mb-16">
+			<div class="container pl-4 mx-auto">
+				<div class="grid gap-5 pt-8 overflow-x-auto grid-cols-fixed-3 md:pt-24">
+					<div
+						class="relative flex items-center justify-between px-8 py-6  rounded-xl bg-gradient-to-r from-grad-1-color-1 to-grad-1-color-2"
+					>
+						<div>
+							<figure>
+								<img class="h-16 lg:h-20" src="img/icons/feature-icon-sm-1.svg" alt="icon" />
+							</figure>
+							<h3 class="mt-5 text-xl text-white">Easy process</h3>
+						</div>
+						<div class="absolute right-5 bottom-4">
+							<img class="max-h-44 lg:max-h-60" src="img/icons/feature-icon-lg-1.svg" alt="icon" />
+						</div>
+					</div>
+					<div
+						class="relative flex items-center justify-between px-8 py-6  rounded-xl bg-gradient-to-r from-grad-2-color-1 to-grad-2-color-2"
+					>
+						<div>
+							<figure>
+								<img class="h-16 lg:h-20" src="img/icons/feature-icon-sm-2.svg" alt="icon" />
+							</figure>
+							<h3 class="mt-5 text-xl text-white">Secure payment</h3>
+						</div>
+						<div class="absolute right-5 bottom-4">
+							<img class="max-h-44 lg:max-h-60" src="img/icons/feature-icon-lg-2.svg" alt="icon" />
+						</div>
+					</div>
+					<div
+						class="relative flex items-center justify-between px-8 py-6  rounded-xl bg-gradient-to-r from-grad-3-color-1 to-grad-3-color-2"
+					>
+						<div>
+							<figure>
+								<img class="h-16 lg:h-20" src="img/icons/feature-icon-sm-3.svg" alt="icon" />
+							</figure>
+							<h3 class="mt-5 text-xl text-white">Customer satisfaction</h3>
+						</div>
+						<div class="absolute right-5 bottom-4">
+							<img
+								class="max-h-44 lg:max-h-60 max"
+								src="img/icons/feature-icon-lg-3.svg"
+								alt="icon"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Categories -->
+		<section class="my-16">
+			<div class="container px-4 mx-auto">
+				<h1 class="mb-5 font-bold sm:text-3xl text-main">Categories</h1>
+
+				<div class="grid grid-cols-2 grid-rows-2 gap-5">
+					<div class="relative h-40 overflow-hidden rounded-xl group sm:h-auto">
+						<img
+							class="object-cover w-full h-full transition-all ease-linear transform  group-hover:scale-105"
+							src="img/category-1.jpg"
+							alt="category"
+						/>
+						<div class="absolute inset-0 flex items-end p-3 bg-black bg-opacity-30">
+							<h3 class="text-xl text-white">Cards</h3>
+						</div>
+					</div>
+					<div class="relative overflow-hidden rounded-xl group">
+						<img
+							class="object-cover w-full h-full transition-all ease-linear transform  group-hover:scale-105"
+							src="img/category-2.jpg"
+							alt="category"
+						/>
+						<div class="absolute inset-0 flex items-end p-3 bg-black bg-opacity-30">
+							<h3 class="text-xl text-white">Posters</h3>
+						</div>
+					</div>
+					<div class="relative overflow-hidden rounded-xl group">
+						<img
+							class="object-cover w-full h-full transition-all ease-linear transform  group-hover:scale-105"
+							src="img/category-3.jpg"
+							alt="category"
+						/>
+						<div class="absolute inset-0 flex items-end p-3 bg-black bg-opacity-30">
+							<h3 class="text-xl text-white">Engraving</h3>
+						</div>
+					</div>
+					<div class="relative overflow-hidden rounded-xl group">
+						<img
+							class="object-cover w-full h-full transition-all ease-linear transform  group-hover:scale-105"
+							src="img/category-4.jpg"
+							alt="category"
+						/>
+						<div class="absolute inset-0 flex items-end p-3 bg-black bg-opacity-30">
+							<h3 class="text-xl text-white">Embroidery</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Products -->
+		<section class="my-16">
+			<div class="container px-4 mx-auto">
+				<h1 class="mb-2 font-bold sm:text-3xl text-main">New Added</h1>
+				<div class="grid gap-5 overflow-x-auto grid-cols-fixed-4">
+					<div
+						class="my-3 overflow-hidden transition-all duration-75 ease-linear transform translate-y-0  rounded-xl hover:-translate-y-1"
+					>
+						<figure class="h-52">
+							<img class="object-cover w-full h-full" src="img/product-1.jpg" alt="cover" />
+						</figure>
+						<div class="flex justify-between p-5 bg-white">
+							<div>
+								<h3>New born card 1</h3>
+								<p class="text-gray-500">Dimensions 12cm x 12cm</p>
+							</div>
+							<div>
+								<h3 class="font-bold text-main">KWD 20</h3>
+								<p class="text-gray-500"><i class="mr-1 text-yellow-400 fas fa-star"></i>4.5</p>
+							</div>
+						</div>
+					</div>
+					<div
+						class="my-3 overflow-hidden transition-all duration-75 ease-linear transform translate-y-0  rounded-xl hover:-translate-y-1"
+					>
+						<figure class="h-52">
+							<img class="object-cover w-full h-full" src="img/product-2.jpg" alt="cover" />
+						</figure>
+						<div class="flex justify-between p-5 bg-white">
+							<div>
+								<h3>New born card 1</h3>
+								<p class="text-gray-500">Dimensions 12cm x 12cm</p>
+							</div>
+							<div>
+								<h3 class="font-bold text-main">KWD 20</h3>
+								<p class="text-gray-500"><i class="mr-1 text-yellow-400 fas fa-star"></i>4.5</p>
+							</div>
+						</div>
+					</div>
+					<div
+						class="my-3 overflow-hidden transition-all duration-75 ease-linear transform translate-y-0  rounded-xl hover:-translate-y-1"
+					>
+						<figure class="h-52">
+							<img class="object-cover w-full h-full" src="img/product-3.jpg" alt="cover" />
+						</figure>
+						<div class="flex justify-between p-5 bg-white">
+							<div>
+								<h3>New born card 1</h3>
+								<p class="text-gray-500">Dimensions 12cm x 12cm</p>
+							</div>
+							<div>
+								<h3 class="font-bold text-main">KWD 20</h3>
+								<p class="text-gray-500"><i class="mr-1 text-yellow-400 fas fa-star"></i>4.5</p>
+							</div>
+						</div>
+					</div>
+					<div
+						class="my-3 overflow-hidden transition-all duration-75 ease-linear transform translate-y-0  rounded-xl hover:-translate-y-1"
+					>
+						<figure class="h-52">
+							<img class="object-cover w-full h-full" src="img/product-4.jpg" alt="cover" />
+						</figure>
+						<div class="flex justify-between p-5 bg-white">
+							<div>
+								<h3>New born card 1</h3>
+								<p class="text-gray-500">Dimensions 12cm x 12cm</p>
+							</div>
+							<div>
+								<h3 class="font-bold text-main">KWD 20</h3>
+								<p class="text-gray-500"><i class="mr-1 text-yellow-400 fas fa-star"></i>4.5</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="grid gap-5 overflow-x-auto grid-cols-fixed-4">
+					<div
+						class="my-3 overflow-hidden transition-all duration-75 ease-linear transform translate-y-0  rounded-xl hover:-translate-y-1"
+					>
+						<figure class="h-52">
+							<img class="object-cover w-full h-full" src="img/product-1.jpg" alt="cover" />
+						</figure>
+						<div class="flex justify-between p-5 bg-white">
+							<div>
+								<h3>New born card 1</h3>
+								<p class="text-gray-500">Dimensions 12cm x 12cm</p>
+							</div>
+							<div>
+								<h3 class="font-bold text-main">KWD 20</h3>
+								<p class="text-gray-500"><i class="mr-1 text-yellow-400 fas fa-star"></i>4.5</p>
+							</div>
+						</div>
+					</div>
+					<div
+						class="my-3 overflow-hidden transition-all duration-75 ease-linear transform translate-y-0  rounded-xl hover:-translate-y-1"
+					>
+						<figure class="h-52">
+							<img class="object-cover w-full h-full" src="img/product-2.jpg" alt="cover" />
+						</figure>
+						<div class="flex justify-between p-5 bg-white">
+							<div>
+								<h3>New born card 1</h3>
+								<p class="text-gray-500">Dimensions 12cm x 12cm</p>
+							</div>
+							<div>
+								<h3 class="font-bold text-main">KWD 20</h3>
+								<p class="text-gray-500"><i class="mr-1 text-yellow-400 fas fa-star"></i>4.5</p>
+							</div>
+						</div>
+					</div>
+					<div
+						class="my-3 overflow-hidden transition-all duration-75 ease-linear transform translate-y-0  rounded-xl hover:-translate-y-1"
+					>
+						<figure class="h-52">
+							<img class="object-cover w-full h-full" src="img/product-3.jpg" alt="cover" />
+						</figure>
+						<div class="flex justify-between p-5 bg-white">
+							<div>
+								<h3>New born card 1</h3>
+								<p class="text-gray-500">Dimensions 12cm x 12cm</p>
+							</div>
+							<div>
+								<h3 class="font-bold text-main">KWD 20</h3>
+								<p class="text-gray-500"><i class="mr-1 text-yellow-400 fas fa-star"></i>4.5</p>
+							</div>
+						</div>
+					</div>
+					<div
+						class="my-3 overflow-hidden transition-all duration-75 ease-linear transform translate-y-0  rounded-xl hover:-translate-y-1"
+					>
+						<figure class="h-52">
+							<img class="object-cover w-full h-full" src="img/product-4.jpg" alt="cover" />
+						</figure>
+						<div class="flex justify-between p-5 bg-white">
+							<div>
+								<h3>New born card 1</h3>
+								<p class="text-gray-500">Dimensions 12cm x 12cm</p>
+							</div>
+							<div>
+								<h3 class="font-bold text-main">KWD 20</h3>
+								<p class="text-gray-500"><i class="mr-1 text-yellow-400 fas fa-star"></i>4.5</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="text-white bg-main py-14">
+			<div class="container mx-auto">
+				<div class="grid grid-cols-1 gap-5 lg:grid-cols-3">
+					<div class="justify-self-center lg:justify-self-start">
+						<figure>
+							<img src="img/logo-white.png" alt="logo" />
+						</figure>
+					</div>
+					<div class="justify-self-center">
+						<ul class="flex space-x-5 lg:space-x-10">
+							<li><a href="#">Help</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Sitemap</a></li>
+						</ul>
+					</div>
+					<div class="text-center justify-self-center lg:text-right lg:justify-self-end">
+						<p class="mb-3">Stay connected with us</p>
+						<i class="text-xl fa-fw fab fa-facebook-square"></i>
+						<i class="text-xl fa-fw fab fa-instagram"></i>
+					</div>
+				</div>
+				<p class="mt-5 text-center">Copyright &nbsp; 2021 All Rights Reserved</p>
+			</div>
+		</footer>
+	</body>
+</html>
